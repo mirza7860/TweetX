@@ -1,0 +1,28 @@
+.profile-tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tab {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: border-top 0.3s ease, background-color 0.3s ease;
+  border-top: 2px solid transparent;
+  text-align: center;
+  color: rgb(103, 83, 95);
+}
+
+.active {
+  color: #332a2a;
+  border-top-color: rgb(225, 85, 162);
+}

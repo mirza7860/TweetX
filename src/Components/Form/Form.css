@@ -1,0 +1,46 @@
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: 0; 
+  box-shadow: 0 0 4px 4px rgba(240, 237, 237, 0.724); 
+  transition: box-shadow 0.2s ease; 
+  border-radius: 4px;
+}
+
+input:focus {
+  box-shadow: 0 0 4px 4px rgba(218, 216, 216, 1); 
+}
+.btn-primary {
+  background-color: #e795ac;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e33b8c;
+}
+
+.invalid-feedback {
+  color: #ff0000;
+  margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+  form {
+    max-width: 100%;
+  }
+}

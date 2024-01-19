@@ -1,0 +1,36 @@
+.image-background {
+  background-image: url(../../assets/background.png);
+  height: 100vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-color: #fff;
+}
+.btn{
+  margin: 0;
+}
+.btn-primary {
+  background-color: #e795ac;
+  color: #fff;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.container {
+  top: 10px;
+  left: 10%;
+  gap: 48px;
+  flex-direction: column;
+}
+.SignUp-Form {
+  width: 316px;
+  margin-right: auto;
+  margin-left: 0;
+}
+.bigText {
+  color: #7f7a7d;
+  font-size: 40px;
+  font-weight: 400;
+}
