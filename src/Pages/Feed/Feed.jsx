@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import TextEditor from "../../Components/TextEditor/TextEditor.jsx";
+import TextEditor from "../../Components/Texteditor/Texteditor";
 import Navbar from "../../Components/Navbar/Navbar";
 import { getDocs, collection, query, orderBy } from "firebase/firestore";
 import { db } from "../../Utils/Firebase/Firebase";
