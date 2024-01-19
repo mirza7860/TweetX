@@ -36,9 +36,11 @@ const ProfilePosts = () => {
         <Loader />
       ) : (
         <div className="Tweets">
-          {Userposts.map((post, index) => (
-            <Tweet key={index} {...post} />
-          ))}
+          {Userposts.length === 0 ? (
+            <p>You haven't posted anything yet.</p>
+          ) : (
+            Userposts.map((post, index) => <Tweet key={index} {...post} />)
+          )}
         </div>
       )}
     </>

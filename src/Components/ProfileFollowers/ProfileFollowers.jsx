@@ -30,7 +30,7 @@ const ProfileFollowers = () => {
           />
         ))
       ) : (
-        <p>You have no followings.</p>
+        <p>You have no followers yet.</p>
       )}
     </>
   );
